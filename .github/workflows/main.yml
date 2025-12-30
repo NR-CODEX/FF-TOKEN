@@ -1,0 +1,48 @@
+name: 🔄 JWT Token Generator (India Time GMT+5:30)
+
+on:
+  schedule:
+    - cron: '0 21,3,9,15 * * *' # 2:30 AM, 8:30 AM, 2:30 PM, 8:30 PM IST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate-and-commit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: 🐍 Set up Python 3.11
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: 📦 Install Python Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install httpx
+
+      - name: ⚙️ Run JWT Token Generator Script
+        run: |
+          echo "🚀 Running token generation script..."
+          python jwt_generator.py
+
+      - name: 📤 Commit & Force Push Token Files
+        env:
+          PAT: ${{ secrets.GH_PAT }}
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add .
+          
+          if ! git diff --cached --quiet; then
+            git commit -m "🔄 Update JWT tokens"
+            git push -f https://x-access-token:${PAT}@github.com/${{ github.repository }}.git main
+          else
+            echo "✨ No changes to commit."
+          fi
