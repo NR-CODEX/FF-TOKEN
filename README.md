@@ -33,3 +33,18 @@ Tokens are provided in simple JSON format:
     "token": "eyJhbGciOiJIUzI1NiIsInN2ciI6IjMiLCJ0eXAiOiJKV1QifQ.eyJhY2NvdW50X2lkIjoxMzczOTkyMDE2MSwibmlja25hbWUiOiJzc8Ky4oG24oG14oG54oGwIiwibm90aV9yZWdpb24iOiJJTkQiLCJsb2NrX3JlZ2lvbiI6IklORCIsImV4dGVybmFsX2lkIjoiOGViYzJlMWYyNzhmYzYzODRmODM4Y2NhYzIyZjFmYTUiLCJleHRlcm5hbF90eXBlIjo0LCJwbGF0X2lkIjoxLCJjbGllbnRfdmVyc2lvbiI6IiIsImVtdWxhdG9yX3Njb3JlIjowLCJpc19lbXVsYXRvciI6ZmFsc2UsImNvdW50cnlfY29kZSI6IlVTIiwiZXh0ZXJuYWxfdWlkIjo0MjYyMzQwMzg0LCJyZWdfYXZhdGFyIjoxMDIwMDAwMDcsInNvdXJjZSI6MCwibG9ja19yZWdpb25fdGltZSI6MTc2MTk2Nzk1OSwiY2xpZW50X3R5cGUiOjIsInNpZ25hdHVyZV9tZDUiOiIiLCJ1c2luZ192ZXJzaW9uIjowLCJyZWxlYXNlX2NoYW5uZWwiOiIiLCJyZWxlYXNlX3ZlcnNpb24iOiJPQjUxIiwiZXhwIjoxNzY3MTU4MzU3fQ.sR67GO3jNKLqM49c0-R_yvE19SjLJIKfIebgeqQVid8"
   }
 ]
+
+## ⚠️ Disclaimer
+</div>
+
+This tool is for educational purposes only. Use it at your own risk. The developers are not responsible for any misuse or account bans.
+
+![Waving Footer Animation](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=35&duration=3500&pause=1000&color=F71515&width=500&height=100&lines=Thank+You+For+Using+NR+CODEX;Stay+Safe+And+Support+Me)
+
+---
+<div align="center">
+
+Developed with ❤️ by **TSun-FreeFire**
+
+© 2026 TSun-FreeFire. All rights reserved.
+</div>
