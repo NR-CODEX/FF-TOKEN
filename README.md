@@ -36,6 +36,4 @@ Tokens are provided in simple JSON format:
   }
 ]
 
-<div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=ff0000,990000,ff0000&height=120&section=footer&text=Thank%20You%20For%20Using%20NR%20CODEX&fontSize=30&fontAlignY=70&animation=twinkling&fontColor=ffffff" />
-</div>
+---
