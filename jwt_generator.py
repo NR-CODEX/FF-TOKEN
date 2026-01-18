@@ -7,7 +7,7 @@ import os
 from typing import Dict, Optional
 
 # Settings
-RELEASEVERSION = "OB51"
+RELEASEVERSION = "OB52"
 USERAGENT = "Dalvik/2.1.0 (Linux; U; Android 13; CPH2095 Build/RKQ1.211119.001)"
 API_URL = "https://api.freefireservice.dnc.su/oauth/account:login?data="
 
